@@ -1,5 +1,7 @@
+pip requirements
 fastapi
 uvicorn
 pydantic
 pandas
 yfinance
+numpy

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-23T00:00:00Z",
+  "period": "1y",
+  "lookback": 63,
+  "sectors": [
+    {"sector": "Consumer Discretionary", "trailing_return": 0.0, "zscore": 0.0, "rank": 1},
+    {"sector": "Consumer Staples", "trailing_return": 0.0, "zscore": 0.0, "rank": 2},
+    {"sector": "Energy", "trailing_return": 0.0, "zscore": 0.0, "rank": 3},
+    {"sector": "Financials", "trailing_return": 0.0, "zscore": 0.0, "rank": 4},
+    {"sector": "Health Care", "trailing_return": 0.0, "zscore": 0.0, "rank": 5},
+    {"sector": "Industrials", "trailing_return": 0.0, "zscore": 0.0, "rank": 6},
+    {"sector": "Materials", "trailing_return": 0.0, "zscore": 0.0, "rank": 7},
+    {"sector": "Information Technology", "trailing_return": 0.0, "zscore": 0.0, "rank": 8},
+    {"sector": "Utilities", "trailing_return": 0.0, "zscore": 0.0, "rank": 9},
+    {"sector": "Real Estate", "trailing_return": 0.0, "zscore": 0.0, "rank": 10},
+    {"sector": "Communication Services", "trailing_return": 0.0, "zscore": 0.0, "rank": 11}
+  ],
+  "ticker_trailing_return": {}
+}
