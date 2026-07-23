@@ -1,0 +1,14 @@
+ticker,name,sector,provider,type,notes
+XLY,Consumer Discretionary Select Sector SPDR Fund,Consumer Discretionary,State Street,sector,
+XLP,Consumer Staples Select Sector SPDR Fund,Consumer Staples,State Street,sector,
+XLE,Energy Select Sector SPDR Fund,Energy,State Street,sector,
+XLF,Financial Select Sector SPDR Fund,Financials,State Street,sector,
+XLV,Health Care Select Sector SPDR Fund,Health Care,State Street,sector,
+XLI,Industrial Select Sector SPDR Fund,Industrials,State Street,sector,
+XLB,Materials Select Sector SPDR Fund,Materials,State Street,sector,
+XLK,Technology Select Sector SPDR Fund,Information Technology,State Street,sector,
+XLU,Utilities Select Sector SPDR Fund,Utilities,State Street,sector,
+XLRE,Real Estate Select Sector SPDR Fund,Real Estate,State Street,sector,
+XLC,Communication Services Select Sector SPDR Fund,Communication Services,State Street,sector,
+SPY,SPDR S&P 500 ETF Trust,Broad Market,State Street,broad,Reference: S&P 500
+QQQ,Invesco QQQ Trust,Technology-Heavy/Broad,Invesco,broad,Reference: Nasdaq-100
