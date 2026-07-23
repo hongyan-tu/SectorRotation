@@ -1,11 +1,11 @@
-XLY
-XLP
-XLE
-XLF
-XLV
-XLI
-XLB
-XLK
-XLU
-XLRE
-XLC
+XLY - Consumer Discretionary Select Sector SPDR Fund
+XLP - Consumer Staples Select Sector SPDR Fund
+XLE - Energy Select Sector SPDR Fund
+XLF - Financial Select Sector SPDR Fund
+XLV - Health Care Select Sector SPDR Fund
+XLI - Industrial Select Sector SPDR Fund
+XLB - Materials Select Sector SPDR Fund
+XLK - Technology Select Sector SPDR Fund
+XLU - Utilities Select Sector SPDR Fund
+XLRE - Real Estate Select Sector SPDR Fund
+XLC - Communication Services Select Sector SPDR Fund
