@@ -24,7 +24,7 @@ jobs:
           PERIOD: 1y
           LOOKBACK: 63
         run: |
-          python backend/ci_update.py --period "$PERIOD" --lookback "$LOOKBACK"
+          python -m backend.ci_update --period "$PERIOD" --lookback "$LOOKBACK"
 
       - name: Commit results
         env:
@@ -34,7 +34,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # ensure push uses the GITHUB_TOKEN
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          git add docs/scores.json || true
+          git add docs/scores.json docs/fetch_log.txt || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
