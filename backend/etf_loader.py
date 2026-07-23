@@ -166,7 +166,12 @@ def sector_scores(etfs_df: pd.DataFrame, prices: pd.DataFrame, lookback_days: in
     else:
         sector_df["zscore"] = (sector_df["trailing_return"] - mu) / sigma
 
-    sector_df["rank"] = sector_df["trailing_return"].rank(ascending=False, method="min").astype(int)
+    # Compute rank but handle NaNs safely (don't cast NaN to int)
+    rank_series = sector_df["trailing_return"].rank(ascending=False, method="min")
+    # Assign worst rank to NaNs (put them at the end)
+    worst_rank = int(len(sector_df)) + 1
+    sector_df["rank"] = rank_series.fillna(worst_rank).astype(int)
+
     sector_df.sort_values("rank", inplace=True)
     return sector_df
 
