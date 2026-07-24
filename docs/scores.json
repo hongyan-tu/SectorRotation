@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-07-23T00:00:00Z",
+  "generated_at": "2026-07-24T12:00:00Z",
   "period": "1y",
   "lookback": 63,
   "sectors": [
-    {"sector": "Consumer Discretionary", "trailing_return": 0.0, "zscore": 0.0, "rank": 1},
-    {"sector": "Consumer Staples", "trailing_return": 0.0, "zscore": 0.0, "rank": 2},
-    {"sector": "Energy", "trailing_return": 0.0, "zscore": 0.0, "rank": 3},
-    {"sector": "Financials", "trailing_return": 0.0, "zscore": 0.0, "rank": 4},
-    {"sector": "Health Care", "trailing_return": 0.0, "zscore": 0.0, "rank": 5},
-    {"sector": "Industrials", "trailing_return": 0.0, "zscore": 0.0, "rank": 6},
-    {"sector": "Materials", "trailing_return": 0.0, "zscore": 0.0, "rank": 7},
-    {"sector": "Information Technology", "trailing_return": 0.0, "zscore": 0.0, "rank": 8},
-    {"sector": "Utilities", "trailing_return": 0.0, "zscore": 0.0, "rank": 9},
-    {"sector": "Real Estate", "trailing_return": 0.0, "zscore": 0.0, "rank": 10},
-    {"sector": "Communication Services", "trailing_return": 0.0, "zscore": 0.0, "rank": 11}
+    {"sector": "Consumer Discretionary", "trailing_return": 0.12, "zscore": 1.229, "rank": 2},
+    {"sector": "Consumer Staples", "trailing_return": 0.03, "zscore": -0.220, "rank": 6},
+    {"sector": "Energy", "trailing_return": -0.05, "zscore": -1.507, "rank": 11},
+    {"sector": "Financials", "trailing_return": 0.02, "zscore": -0.380, "rank": 7},
+    {"sector": "Health Care", "trailing_return": 0.09, "zscore": 0.747, "rank": 4},
+    {"sector": "Industrials", "trailing_return": 0.06, "zscore": 0.263, "rank": 5},
+    {"sector": "Materials", "trailing_return": -0.01, "zscore": -0.864, "rank": 9},
+    {"sector": "Information Technology", "trailing_return": 0.15, "zscore": 1.712, "rank": 1},
+    {"sector": "Utilities", "trailing_return": -0.03, "zscore": -1.186, "rank": 10},
+    {"sector": "Real Estate", "trailing_return": 0.0, "zscore": -0.703, "rank": 8},
+    {"sector": "Communication Services", "trailing_return": 0.10, "zscore": 0.908, "rank": 3}
   ],
-  "ticker_trailing_return": {}
+  "ticker_trailing_return": {
+    "XLY": 0.12,
+    "XLP": 0.03,
+    "XLE": -0.05,
+    "XLF": 0.02,
+    "XLV": 0.09,
+    "XLI": 0.06,
+    "XLB": -0.01,
+    "XLK": 0.15,
+    "XLU": -0.03,
+    "XLRE": 0.0,
+    "XLC": 0.10,
+    "SPY": 0.07,
+    "QQQ": 0.14
+  }
 }
